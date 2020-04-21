@@ -10,7 +10,7 @@
     "scss-compile": "node-sass source/styles/styles.scss > styles/styles.css",
     "sass-lint": "sass-lint -c sass-lint.yaml 'source/styles/**/*.scss' -v -q"
   },
-  "author": "",
+  "author": "merpssirk",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0",

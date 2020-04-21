@@ -1,1 +1,195 @@
 @import "_reset";
+
+.slider {
+    height: 100vh;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+/*  <!-- Slider 1 (Intro) --> */
+#slider-1 {
+    background-color: rgb(4, 49, 4);
+    margin: 0 auto;
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
+        animation-name: slidein-h1;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        transform: translateY(-1000px);
+    
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        text-align: center;
+        font-size: 20px;
+        padding: 25px;
+        animation-name: slidein-p;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        transform: translateX(-1000px);
+    }
+    a {
+        text-decoration: none;
+        
+    }
+    .btn {
+        background-color: white;
+        padding: 15px;
+
+        &:hover {
+            background: rgb(20, 17, 17);
+            color: #fff;
+        }
+    }
+    .button {
+        margin-top: 25px;
+        text-align: center;
+    }
+}
+/* <!-- Slider 2 --> */
+
+#slider-2 {
+    background-color: rgb(40, 7, 119);
+    margin: 0 auto;
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
+
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        text-align: center;
+        font-size: 20px;
+        padding: 25px;
+
+    }
+    a {
+        text-decoration: none;
+                
+    }
+    .btn {
+        background-color: white;
+        padding: 15px;
+        
+        &:hover {
+            background: rgb(20, 17, 17);
+            color: #fff;
+        }
+    }
+    .button {
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        width: 15%;
+    }
+}
+/*  <!-- Page 3 --> */
+#slider-3 {
+    background-color: skyblue;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
+
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        text-align: center;
+        font-size: 20px;
+        padding: 25px;
+
+    }
+    a {
+        text-decoration: none;
+                
+    }
+    .btn {
+        background-color: white;
+        padding: 15px;
+        
+        &:hover {
+            background: rgb(20, 17, 17);
+            color: #fff;
+        }
+    }
+    .button {
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        width: 15%;
+    }
+}
+/* <!-- Slider 4 --> */
+#slider-4 {
+    background-color: darkgray;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
+
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        text-align: center;
+        font-size: 20px;
+        padding: 25px;
+
+    }
+    a {
+        text-decoration: none;
+        
+    }
+    .btn {
+        background-color: white;
+        padding: 15px;
+
+        &:hover {
+            background: rgb(20, 17, 17);
+            color: #fff;
+        }
+    }
+    .button {
+        margin-top: 25px;
+        text-align: center;
+    }
+}
+/* KEYFRAMES */
+@keyframes slidein-h1 {
+    to {
+       transform: translateY(25px);;
+    }
+}
+@keyframes slidein-p {
+    to {
+        transform: translateX(0px);
+    }
+}
